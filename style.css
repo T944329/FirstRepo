@@ -1,0 +1,64 @@
+/*Selector {
+	property: value;
+}*/
+
+*{
+	text-align:right;
+}
+body {
+	background-image :url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg)
+}
+p:hover {
+	color: red;
+	text-align :center;
+	border :5px solid blue;
+}
+
+p {
+	text-transform:uppercase;
+}
+
+p{
+	line-height:50px;
+	font-style:italic;
+	font-weight:bold;
+	font-size:100%;
+	font-family:"poiret one" cursive;
+}
+
+img{
+	float:right;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+}
+
+p {
+	color: green;
+}
+
+li{
+	list-style:none;
+	display :inline-block;
+}
+
+
+.webtext:first-child {
+	border:5px dashed green;
+}
+
+.active {
+	color:red;
+}
+
+
+#div1 {
+	background: rgba(0,0,255,0.2);
+}
+
+#div2{
+	background:rgba(255,0,0,0.2);
+}
+
